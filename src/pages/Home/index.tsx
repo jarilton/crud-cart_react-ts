@@ -1,7 +1,7 @@
-import { Text } from "./styles";
+import { DivText } from "./styles";
 
 export function Home() {
     return (
-        <Text>Sejam Bem vindos a Home</Text>
+        <DivText>Inicio</DivText>
     )
 }

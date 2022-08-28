@@ -1,20 +1,20 @@
 import { NavLink } from "react-router-dom";
-import { Section, Nav, Text, Button, DivButton } from "./styles";
+import { Section, Nav, DivText, Button, DivButton } from "./styles";
 
 export function Header() {
   return (
     <Section>
       <Nav>
         <NavLink style={{ textDecoration: "none" }} to="/">
-          <Text>Home</Text>
+          <DivText>Inicio</DivText>
         </NavLink>
 
         <NavLink style={{ textDecoration: "none" }} to="/store">
-          <Text>Store</Text>
+          <DivText>Loja</DivText>
         </NavLink>
 
         <NavLink style={{ textDecoration: "none" }} to="/about">
-          <Text>About</Text>
+          <DivText>Sobre</DivText>
         </NavLink>
       </Nav>
       <Button>

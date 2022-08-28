@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
+  background-color: #808080;
   display: flex;
   justify-content: space-between;
   padding: 20px;
 
-  box-shadow: 5px 5px 10px gray, -5px 0 darkgreen;
+  box-shadow: 5px 5px 10px gray;
 `;
 
 export const Nav = styled.nav`
@@ -13,7 +14,7 @@ export const Nav = styled.nav`
   align-items: center;
 `;
 
-export const Text = styled.text`
+export const DivText = styled.div`
   color: #ffffff;
   margin-right: 15px;
 `;
@@ -39,6 +40,7 @@ export const DivButton = styled.div`
   align-items: center;
   background-color: #ff0000;
   color: #ffffff;
+  font-weight: bold;
   width: 100%;
   max-width: 20px;
   height: 20px;

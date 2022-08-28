@@ -1,9 +1,9 @@
-import { Text } from "./styles";
+import { DivText } from "./styles";
 
 export function About() {
   return (
-    <Text>
-      Mais informações pode entrar em contato
-    </Text>
+    <DivText>
+      Sobre
+    </DivText>
   );
 }

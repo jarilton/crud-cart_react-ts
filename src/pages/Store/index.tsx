@@ -1,7 +1,7 @@
-import { Text } from "./styles";
+import { DivText } from "./styles";
 
 export function Store() {
     return (
-        <Text>Loja dos produtos</Text>
+        <DivText>Loja</DivText>
     )
 }
